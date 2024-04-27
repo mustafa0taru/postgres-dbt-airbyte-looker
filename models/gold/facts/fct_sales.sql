@@ -7,7 +7,7 @@
 }}
 with transformed as (
   select
-    t.id as transaction_id,
+    t.id as transactions_id,
     t.date as transaction_date,
     t.time as transaction_time,
     t.quantity,

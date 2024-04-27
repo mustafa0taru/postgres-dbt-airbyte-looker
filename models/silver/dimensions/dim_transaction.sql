@@ -13,4 +13,4 @@ select
   store_id,
   product_id,
   getdate() as updated_at
-from {{ ref('stg_transaction') }}
+from {{ var('bronze_schema') }}.stg_transaction

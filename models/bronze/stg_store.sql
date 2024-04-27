@@ -1,2 +1,2 @@
-select *
-FROM {{ var('bronze_schema') }}.stg_store
+select * 
+from {{ source('bronze', 'stg_store') }}

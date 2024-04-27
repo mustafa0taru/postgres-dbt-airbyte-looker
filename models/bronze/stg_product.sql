@@ -1,2 +1,2 @@
 select * 
-FROM {{ var('bronze_schema') }}.stg_product
+from {{ source('bronze', 'stg_product') }}

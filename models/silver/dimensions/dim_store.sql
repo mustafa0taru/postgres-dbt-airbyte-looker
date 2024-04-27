@@ -9,4 +9,4 @@ select
   id,
   location,
   getdate() as updated_at
-from {{ ref('stg_store') }}
+from {{ var('bronze_schema') }}.stg_store

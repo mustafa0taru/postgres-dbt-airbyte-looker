@@ -6,7 +6,7 @@ sources:
     schema: bronze
 
     tables:
-      - name: product 
+      - name: stg_product 
         description: "Table containing product information"
         columns:
           - name: id
@@ -20,7 +20,7 @@ sources:
           - name: detail
             description: "Additional information about the product"
 
-      - name: transaction  
+      - name: stg_transaction  
         description: "Table containing transaction information"
         columns:
           - name: id
@@ -36,7 +36,7 @@ sources:
           - name: product_id
             description: "ID of the product involved in the transaction"
 
-      - name: store 
+      - name: stg_store 
         description: "Table containing store information"
         columns:
           - name: id
