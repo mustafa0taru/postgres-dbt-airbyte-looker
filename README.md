@@ -1,5 +1,5 @@
 # Modern Data Stack for Sales Analysis: Postgres → Airbyte → dbt → Looker
-## This repository offers a structured approach for ingesting, transforming, and visualizing sales data from Postgres, leveraging Airbyte's robust data integration, dbt's declarative modeling capabilities, and Looker's interactive exploration power.
+This repository offers a structured approach for ingesting, transforming, and visualizing sales data from Postgres, leveraging Airbyte's robust data integration, dbt's declarative modeling capabilities, and Looker's interactive exploration power.
 ### Using the starter project
 
 Try running the following commands:
