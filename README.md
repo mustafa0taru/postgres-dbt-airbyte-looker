@@ -11,6 +11,7 @@ Tools:
 - dbt 
 - Looker
 - Docker
+
 ### Getting Started:
 
 - Clone the Repository: Use git clone https://github.com/mustafa0taru/postgres-dbt-airbyte-looker.git to download the project.
