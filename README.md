@@ -11,10 +11,13 @@ Tools:
 - dbt 
 - Looker
 - Docker
+## The Dashboard
+![Screenshot 2024-03-05 044641](https://github.com/mustafa0taru/postgres-dbt-airbyte-looker/assets/81088966/47f50462-549a-48da-8cd4-b657120a9e79)
+[View here](https://lookerstudio.google.com/reporting/e98b2842-104a-4306-8569-0c6858228bf4/page/D77qD)
 
 ### Getting Started:
 
-- Clone the Repository: Use git clone https://github.com/mustafa0taru/postgres-dbt-airbyte-looker.git to download the project.
+- Clone the Repository: Use git clone ```bash git clone https://github.com/mustafa0taru/postgres-dbt-airbyte-looker.git to download the project.
 - Configure Connections: Update the connection details in airbyte.yaml, dbt_project.yml, and looker.ini with your specific Postgres, Airbyte, and Looker credentials.
 - Customize dbt Models: Adapt the provided dbt models (focusing on store.sql, product.sql, and transaction.sql) to precisely align with your sales data schema and desired transformations.
 - Run the Pipeline: Follow the instructions in the README.md file to initiate the data extraction, transformation, and loading process.
