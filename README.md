@@ -3,7 +3,7 @@ This repository offers a structured approach for ingesting, transforming, and vi
 Tools:
 
 ## The Medallion Architecture
-![Untitled (17)](https://github.com/mustafa0taru/postgres-dbt-airbyte-looker/assets/81088966/95962f9d-c2ee-41bd-9bd2-2bb7cc81bab7)
+![Untitled (18)](https://github.com/mustafa0taru/postgres-dbt-airbyte-looker/assets/81088966/e09540cf-9d2b-4b4b-b668-038cde3a957d)
 
 ### Tools:
 - Postgres 
