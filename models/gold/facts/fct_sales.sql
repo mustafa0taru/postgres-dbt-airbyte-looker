@@ -13,7 +13,6 @@ with transformed as (
     t.quantity,
     s.location as store_location,
     p.category,
-    p.details,
     p.type,
     p.unit_price,
     t.quantity * p.unit_price as total_price,
