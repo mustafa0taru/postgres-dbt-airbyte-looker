@@ -12,27 +12,25 @@ seed-paths: ["seeds"]  # Path for seed data
 macro-paths: ["macros"]  # Path for macro files
 snapshot-paths: ["snapshots"]  # Path for snapshot files
 
-# Directories to be removed by `dbt clean`
 clean-targets:
   - "target"
   - "dbt_packages"
 
-# Variable definitions to use in model SQL queries and other parts of dbt
 vars: 
-  bronze_schema: 'bronze'  # Define schema name for Bronze stage
-  silver_schema: 'silver'  # Define schema name for Silver stage
-  gold_schema: 'gold'  # Define schema name for Gold stage
+  bronze_schema: 'bronze'  
+  silver_schema: 'silver'  
+  gold_schema: 'gold'  
 
 # Configuration for models
 models:
   mds:
-    bronze:  # Bronze stage for raw/staging data
-      +materialized: view  # Typically use views for raw data
-    silver:  # Silver stage for dimensions and intermediate transformations
-      +materialized: table  # Generally, use tables for dimensions
-      dimensions:  # Example for dimensional data in the Silver stage
+    bronze:  
+      +materialized: view  a
+    silver:  
+      +materialized: table  
+      dimensions:  
         +materialized: table
-    gold:  # Gold stage for final business-ready models
-      +materialized: table  # Generally, use tables for fact tables and final models
-      facts:  # You could also create fact-like tables in Silver
+    gold:  
+      +materialized: table  
+      facts:  
         +materialized: table
