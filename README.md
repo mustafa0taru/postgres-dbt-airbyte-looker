@@ -1,4 +1,4 @@
-# Modern Data Stack for Sales Analysis
+# Modern Data Stack for Sales
 This repository offers a structured approach for ingesting, transforming, and visualizing sales data from Postgres, leveraging Airbyte's robust data integration, dbt's declarative modeling capabilities, and Looker's interactive exploration power.
 Tools:
 
